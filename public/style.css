@@ -1,0 +1,60 @@
+.top {
+  display: grid;
+  background-color: purple;
+  left:0; right:0; top: 0;
+  height: 120px 100%;
+}
+
+h1 {
+color: white;
+padding-left: 30px;
+padding-top: 15px;  
+}
+
+
+.main {
+display: block;
+width: 200px;
+margin: 50px auto 0;
+padding-top: 50px;
+}
+
+.textDiv {
+display: inline-block;
+margin: 15px;
+
+}
+
+
+@media only screen and (min-width: 700px) {
+
+  .top {
+    position:absolute;
+    background-color: purple;
+    left:0; right:0; top: 0;
+    height: 120px;
+}
+
+.main {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+  padding-top: 100px;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 15px;  
+}
+
+
+.textDiv {
+  display: inline-block;
+  margin: 15px;
+  
+}
+  
+
+}
